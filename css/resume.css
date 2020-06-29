@@ -1,0 +1,65 @@
+.body{
+	background-color: black;
+	width:100%;
+}
+.main{
+	margin:1%;
+	background-color: grey;
+	display:flex;
+	padding:40px;
+	height:221vh;
+	border-radius: 5px;
+}
+.text{
+	text-align: center
+
+}
+.image{
+	width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 60px;
+    box-shadow: 0 2px 6px rgba(0,0,0,.3);
+    border-radius: 50%;
+}
+.image img{
+	width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+ul {
+  display: table;
+  margin: auto;
+}
+ol{
+	padding-left: 100px
+}
+.profile{
+	width:25%;
+	background-color: skyblue;
+	margin-right: 40px;
+	border-radius: 5px;
+	box-shadow:  4px 4px 5px 5px
+	
+	
+}
+.checkbox{
+	position: relative;
+			left: -4%;
+}
+.button{
+	padding-top: 30px;
+	padding-left: 700px
+}
+.resume{
+	width:70%;
+	background-color: pink;
+	border-radius: 5px;
+	box-shadow:  4px 4px 5px 5px;
+	overflow: auto;
+	padding: 10px;
+	
+}
+/*table{
+	border:2px solid black;
+}*/
