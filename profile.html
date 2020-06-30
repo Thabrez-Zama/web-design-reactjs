@@ -1,46 +1,39 @@
 <!DOCTYPE html>
 <html>
-<html lang="en">
 <head>
-	<title>Profile</title>
-	<meta charset="utf-8">
-	<meta name="description" content="cards of different profiles">
-	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="bootstrap css/css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+
+	<style type="text/css">
+		.card{
+			width: 300px;
+			margin-left: auto;
+			margin-right: auto;
+			padding-top: 10px
+		}
+		.main{
+			padding-top: 80px;
+
+		}
+		body{
+			background-image: url("image/bg1.jpg");
+			  background-repeat: no-repeat;
+              background-size: cover;
+		}
+
+
+	</style>
 </head>
 <body>
-<!-- parent div -->
-<div class="parent">
-<!-- child div's -->
-   <div class="first">
-   	<img src="image/website-design.svg" alt="image">
-   	<h1>N.S.Thabrez</h1>
-   	<h4>2238975698</h4>
-   	<h4>thabrez@gmail.com</h4>
-   	<button>View Profile</button>
-   </div>
-   <div class="second">
-   	<img src="image/website-design.svg" alt="image">
-   	<h1>tabbu</h1>
-   	<h4>1234577556</h4>
-   	<h4>tabbu@gmail.com</h4>
-   	<button>View Profile</button>
-   </div>
-   <div class="third">
-   	<img src="image/website-design.svg" alt="image">
-   	<h1>parvez</h1>
-   	<h4>122346675</h4>
-   	<h4>parvez@gmail.com</h4>
-   	<button>View Profile</button>
-   </div>
-   <div class="forth">
-   	<img src="image/website-design.svg" alt="image">
-   	<h1>thabrez</h1>
-   	<h4>3254365476</h4>
-   	<h4>thabrez@gmail.com</h4>
-   	<button>View Profile</button>
-   </div>
-   </div>
+	<div class="main">
+	<div class="card text-center">
+	<img class="card-img-top" src="image/single_user.png">
+	<div class="card-body text-center">Welcome students</div>
+	<div class="card-title text-center">Reactjs</div>
+	<div class="card-text text-center">Online Classes</div><br>
+	<button type="button" class="btn btn-primary" onclick="alert('Successfully registered')">Register</button>
+</div>
+</div>
 </body>
-</html> 
 </html>
