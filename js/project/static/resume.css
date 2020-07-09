@@ -38,11 +38,7 @@ ol{
 	padding-left: 100px
 }
 .profile{
-	/*width:25%;
-	background-color: skyblue;
-	margin-right: 40px;
-	border-radius: 5px;
-	box-shadow:  4px 4px 5px 5px*/
+	
 
 	width: 30%;
 	border: 2px solid #ddd;
@@ -63,12 +59,7 @@ ol{
 	padding-left: 700px
 }
 .resume{
-	/*width:70%;
-	background-color: pink;
-	border-radius: 5px;
-	box-shadow:  4px 4px 5px 5px;
-	overflow: auto;
-	padding: 10px;*/
+	
 
 	width: 65%;
 	border: 2px solid #ddd;
@@ -85,17 +76,7 @@ table{
 	padding:100px;
 }
 
-/*@media only screen and (max-width:375px) and (min-width: 320px){
-		.main{
- 			display: flex;
-			flex-direction:column;
-			width: 100%;
-			padding: 1%;
-			margin:1%;
-		}
-.profile{
-			width: 100%;
-		}*/
+
 
 
 @media only screen and (min-width: 320px) and (max-width: 480px){

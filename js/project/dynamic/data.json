@@ -1,0 +1,45 @@
+{
+	"details":{
+		"name":"Thabrez Zama",
+		"email":"thabrez918@gmail.com",
+		"number":"9502342333",
+		"Address":"kadapa"
+	},
+	"careerobjective":{
+		"info":"To become software developer"
+	},
+	"eduactionalqualification":[
+{
+	"institute":"Madanapalle institute of Technology and Science",
+	"degree":"B.tech",
+	"passoutyear":"2021",
+	"percentage":"85%"
+},
+{
+	"institute":"Bharathi junior college",
+	"degree":"Intermediate",
+	"passoutyear":"2017",
+	"percentage":"97%"
+},
+{
+	"institute":"Universal School",
+	"degree":"SSC",
+	"passoutyear":"2015",
+	"percentage":"93%"
+}
+	],
+
+	"techinicalskills":[{
+		"title":"Programming language",
+		"info":["c,Html,CSS,Java Script,python"]
+	},
+	{
+		"title":"Databases",
+		"info":["mongodb"]
+	},
+	{
+		"title":"Operating system",
+		"info":["windows,linux"]
+	}
+]
+}
